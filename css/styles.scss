@@ -1954,6 +1954,19 @@ a {
 
 		&__top {
 			margin-bottom: 20px;
+
+			.content__row {
+				display: flex;
+				flex-direction: column;
+			}
+
+			.select-per-page {
+				align-items: flex-start;
+
+				&__select {
+					padding: 10px 15px;
+				}
+			}
 		}
 	}
 
